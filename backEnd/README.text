@@ -1,0 +1,3 @@
+Comando para criar migration: npx knex migrate:make createNotes
+
+comando para rodar as migration: npx knex migrate:latest
