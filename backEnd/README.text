@@ -1,3 +1,13 @@
 Comando para criar migration: npx knex migrate:make createNotes
 
 comando para rodar as migration: npx knex migrate:latest
+
+index - Get para listar varios registros
+
+Show - Get para exibir um registro especifico
+
+create - Post para criar um registro
+
+update - Put para atualizar um registro
+
+delete - Delete para remover um registro

@@ -24,10 +24,10 @@ class UsersController {
     async update(resquest, response){
         const{name, email, password, old_password} = resquest.body;
         console.log(resquest.body)
-        const {id} = resquest.params;
+        const user_id = resquest.user.id
 
         const database = await sqliteConnection();
-        const user = await database.get("SELECT * FROM users WHERE id = (?)", [id]);
+        const user = await database.get("SELECT * FROM users WHERE id = (?)", [user_id]);
 
         if(!user){
             throw new AppError("Usuario não encontrado")
@@ -64,7 +64,7 @@ class UsersController {
             password = ?,
             updated_at = DATETIME('now')
             WHERE id = ?`,
-            [user.name, user.email, user.password,id]
+            [user.name, user.email, user.password,user_id]
             );
 
             return response.json()
@@ -76,12 +76,3 @@ module.exports = UsersController;
 
 
 
-// index - Get para listar varios registros
-
-    // Show - Get para exibir um registro especifico
-
-    // create - Post para criar um registro
-
-    // update - Put para atualizar um registro
-
-    // delete - Delete para remover um registro
