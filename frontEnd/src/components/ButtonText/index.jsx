@@ -5,7 +5,8 @@ export function ButtonText({title, isActive = false, ...rest}){
         <Container 
             type="button"
             isActive={isActive}
-            {...rest}>
+            {...rest}
+            >
             {title}
         </Container>
     );
