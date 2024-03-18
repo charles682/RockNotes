@@ -11,16 +11,16 @@ Rocket Notes é uma aplicação de gerenciamento de notas que permite aos usuár
 
 ## Tecnologias Utilizadas
 
-- **axios**,
-- **lucide-react**,
-- **react-router-dom**,
-- **swiper**,
-- **bcryptjs**,
-- **cors**,
-- **express-async-errors**,
-- **jsonwebtoken**,
-- **knex**,
-- **multer**,
+ **axios**,
+ **lucide-react**,
+ **react-router-dom**,
+ **swiper**,
+ **bcryptjs**,
+ **cors**,
+ **express-async-errors**,
+ **jsonwebtoken**,
+ **knex**,
+ **multer**,
 
 - **Frontend**: Desenvolvido em React.js, utilizando bibliotecas como React Router DOM para roteamento.
 - **Backend**: Construído em Node.js, utilizando Express como framework web, com Knex.js para construção de consultas SQL e multer para manipulação de arquivos.
