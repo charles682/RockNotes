@@ -25,9 +25,4 @@ Rocket Notes é uma aplicação de gerenciamento de notas que permite aos usuár
 - **Frontend**: Desenvolvido em React.js, utilizando bibliotecas como React Router DOM para roteamento.
 - **Backend**: Construído em Node.js, utilizando Express como framework web, com Knex.js para construção de consultas SQL e multer para manipulação de arquivos.
 
-## Instalação e Uso
 
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/seu-usuario/rocket-notes.git
