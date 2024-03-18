@@ -1,7 +1,11 @@
-Rocket Notes
-Rocket Notes é uma aplicação de gerenciamento de notas que permite aos usuários criar, visualizar, editar e excluir notas de forma fácil e conveniente.
+                                                        #Rocket Notes
+                                                        
+#FrontEnd e BackEnd completo da aplicação Food Explorer, que foi desenvolvida para o desafio final do Explorer da Rocketseat.
 
-Funcionalidades
+
+#Rocket Notes é uma aplicação de gerenciamento de notas que permite aos usuários criar, visualizar, editar e excluir notas de forma fácil e conveniente.
+
+#Funcionalidades
 Autenticação de Usuário: Os usuários podem criar uma conta e fazer login de forma segura.
 Gestão de Notas: Crie, visualize, edite e exclua suas notas facilmente.
 Responsividade: A aplicação é otimizada para funcionar em uma variedade de dispositivos, proporcionando uma experiência de usuário consistente.
